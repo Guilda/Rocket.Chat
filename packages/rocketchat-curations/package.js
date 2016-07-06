@@ -19,7 +19,7 @@ Package.onUse(function(api) {
 
 	api.addFiles('server/models/Messages.js');
 	api.addFiles('client/methods/setCuration.js', 'client');
-	// api.addFiles('setCuration.js', 'server');
+	api.addFiles('setCuration.js', 'server');
 
 	api.addAssets('client/stylesheets/reaction.less', 'server');
 	api.addFiles('loadStylesheets.js', 'server');

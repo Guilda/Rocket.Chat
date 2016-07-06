@@ -36,10 +36,9 @@ Template.room.events({
 });
 
 Meteor.startup(function() {
-	console.log("I AM STARTING");
 	RocketChat.MessageAction.addButton({
 		id: 'curation-message',
-		icon: 'icon-people-plus',
+		icon: 'icon-symbols',
 		i18nLabel: 'Curations',
 		context: [
 			'message',
